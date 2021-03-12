@@ -1,13 +1,8 @@
 package pkg
 
-import (
-	"fmt"
-
-	"github.com/adeniyistephen/golesson/opp"
-)
+import "github.com/adeniyistephen/golesson/pkg/lol"
 
 //Pkg ...
 func Pkg() {
-	fmt.Println("package")
-	opp.Opp()
+	lol.Lol()
 }
