@@ -92,6 +92,8 @@ func main() {
 	}
 	fmt.Println("age: ", getAge(p))
 
+	
+	fmt.Println("started server....")
 	http.HandleFunc("/", index)
 	http.ListenAndServe(":3000", nil)
 }
